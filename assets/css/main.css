@@ -1319,20 +1319,26 @@ body.is-preload #footer {
   object-fit: cover;
 }
 
+/* Projects */
+
 .projects img {
-  max-width: 12rem;
-  height: 12rem;
+  width: 80%;
+  height: 20rem;
   object-fit: fill;
-  margin: 0 0.5rem;
+  margin: 1rem auto;
 }
 
 .flexBoxes {
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
+
 .projects {
+  width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -1340,7 +1346,17 @@ body.is-preload #footer {
 }
 
 .projects > span {
-  margin: 2rem auto;
+  margin: 0 auto;
+}
+
+.projectName {
+  font-size: 1.3rem;
+}
+
+.techStackProjects {
+  padding: 1rem 0;
+  font-weight: 600;
+  color:rgba(99, 158, 71, 0.986);
 }
 
 a {
@@ -1348,6 +1364,8 @@ a {
   font-style: none;
   border-bottom: none;
 }
+
+/* About Section */
 
 .image2 {
   display: flex;
