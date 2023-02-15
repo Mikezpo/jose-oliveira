@@ -1482,12 +1482,17 @@ input:focus, textarea:focus {
 
 #introName {
   margin-bottom: 0.2rem;
+  font-size: 1.2rem !important;
 }
 
 #nameHeader {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: rgba(99, 158, 71, 0.986);
+}
+
+#jobRole {
+  font-size: 1.2rem !important;
 }
 
 #socialReach {
