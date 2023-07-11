@@ -1329,6 +1329,10 @@ body.is-preload #footer {
   border-radius: 16px;
 }
 
+.projects img:hover {
+  transition: all 0.8s ease;
+}
+
 .flexBoxes {
   width: 100%;
   display: flex;
@@ -1375,7 +1379,6 @@ a {
 .aboutImage {
   margin: 0 auto 3rem auto;
   width: 15rem;
-  /* height: 10rem; */
   object-fit: cover;
   border-radius: 50%;
 }
@@ -1395,6 +1398,12 @@ li {
 
 .social {
   width: 1.8rem;
+  filter: grayscale(100%);
+}
+
+.social:hover {
+  filter: grayscale(0);
+  transition: all 0.5s ease;
 }
 
 .contactDetails {
@@ -1470,6 +1479,7 @@ input:focus, textarea:focus {
   outline: none;
   border-color: rgba(99, 158, 71, 0.986);
   box-shadow: 0 0 10px rgba(99, 158, 71, 0.986);
+  transition: all 0.5s ease;
 }
 
 #buttonBlue:focus {
