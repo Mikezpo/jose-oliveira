@@ -1356,10 +1356,11 @@ body.is-preload #footer {
 
 .projectName {
   font-size: 1.3rem;
+  padding-bottom: 2rem;
 }
 
 .techStackProjects {
-  padding: 1rem 0;
+  padding: 0 0 4rem 0;
   font-weight: 600;
   color:rgba(99, 158, 71, 0.986);
 }
